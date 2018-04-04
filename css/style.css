@@ -1,12 +1,34 @@
+/* navber */
+/* change the background color */
+.navbar-custom {
+  background-color: #ac0000c7!important;
+  line-height: 8px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #ffffffcc;
+}
+/* change the link color */
+.navbar-nav .nav-link {
+  color: #ffffffcc!important;
+}
+/* change the color of active or hovered links */
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
+  color: #ffffff!important;
+  background-color: #ba0000c7!important;
+}
+.custom-toggler {
+  margin: 1px 1px!important;
+  border-color: #ffffffcc!important;
+}
+.custom-toggler:hover{
+  background-color: #ba0000c7!important;
+}
 
-html { height: 100%; width: 100%; }
-body{
-  width: 100%; height: 100%; 
-  margin: 0; padding: 0; border: 0;
-  font-family: Verdana, Arial, Helvetica, sans-serif; 
-  /* font-size: 13px;  */
-  /* line-height: 15px; */
-  background:#f4f4f4
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ffffffcc' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
 }
 
 /* custom */
